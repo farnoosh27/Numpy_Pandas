@@ -1,7 +1,8 @@
+## sometimes you need to change the delimiter in your work
 import csv
 
-input_file = 'Llama-2-13b-hf-stuff-quantized-mavenir-DIAMETER.csv'  # Replace with your input file path
-output_file = 'Llama-2-13b-hf-stuff-quantized-converted-mavenir-DIAMETER.csv'  # Replace with your output file path
+input_file = ''  # Replace with your input file path
+output_file = ''  # Replace with your output file path
 
 # Reading the CSV file and writing it with a new delimiter
 with open(input_file, 'r', newline='') as infile, open(output_file, 'w', newline='') as outfile:
